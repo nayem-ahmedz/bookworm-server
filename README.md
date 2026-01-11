@@ -7,12 +7,12 @@ It handles authentication, role-based authorization, database operations, image 
 ---
 
 ## Live API
-coming soon...
+[https://bookwormz-server.vercel.app/](https://bookwormz-server.vercel.app/)
 
 ---
 
 ## Frontend Client
-coming soon...
+[https://book-wormz.vercel.app/](https://book-wormz.vercel.app/)
 ---
 
 ## Authentication
@@ -70,7 +70,7 @@ coming soon...
 
 1. **Clone the repo:**
 ```bash
-git clone [https://github.com/your-username/bookworm-server.git](https://github.com/your-username/bookworm-server.git)
+git clone [https://github.com/nayem-ahmedz/bookworm-server.git](https://github.com/nayem-ahmedz/bookworm-server.git)
 ```
 
 2. **Install dependencies:**
@@ -83,6 +83,7 @@ Create a .env file and add, also added a .env.example for demonstration
 ```bash
 PORT=5000
 MONGODB_URI=your_mongodb_atlas_uri
+FRONTEND_URL=your_frontend_url
 JWT_SECRET=your_jwt_secret
 ```
 
