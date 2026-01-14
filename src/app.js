@@ -4,6 +4,8 @@ const app = express();
 
 // auth routes imports
 import authRoutes from './routes/auth.js';
+import bookRoutes from './routes/book.js';
+import genreRoutes from './routes/genre.js';
 
 // Middleware
 // CORS for normal requests
@@ -25,5 +27,10 @@ app.get('/', (req, res) => {
 
 // auth endpoint
 app.use('/api/auth', authRoutes);
+
+// books, genress
+app.use('/api/book', bookRoutes);
+app.use('/api/genre', genreRoutes);
+
 
 export default app;
